@@ -1,0 +1,16 @@
+{
+  "name": "node-sheets-demo",
+  "version": "1.0.0",
+  "main": "src/index.js",
+  "repository": "https://github.com/riccardogiorato/node-sheets-demo.git",
+  "author": "Riccardo Giorato <giorat.96@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "node-sheets": "^1.2.0"
+  },
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "yarn run start"
+  }
+}
