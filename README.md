@@ -1,5 +1,7 @@
 # node-sheets-demo
 
+![](img/cover.png)
+
 ## Install Dependencies
 
 ```javascript
