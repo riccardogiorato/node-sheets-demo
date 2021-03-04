@@ -4,12 +4,12 @@ dotenv.config();
 
 /*
 Google Sheet example with a list of students here
-https://docs.google.com/spreadsheets/d/1BxiMVs0XRA5nFMdKvBdBZjgmUUqptlbs74OgvE2upms/edit#gid=0
+https://docs.google.com/spreadsheets/d/1-UeQshwrIbxUwYuTIspGlSdUsy6cR1gDR6texuyB7G4/edit?usp=sharing
 */
 
 (async () => {
   try {
-    const gs = new Sheets("1BxiMVs0XRA5nFMdKvBdBZjgmUUqptlbs74OgvE2upms");
+    const gs = new Sheets("1-UeQshwrIbxUwYuTIspGlSdUsy6cR1gDR6texuyB7G4");
     await gs.authorizeApiKey(process.env.GOOGLE_SHEET_KEY);
     const table = await gs.tables("Class Data!A:F");
     console.log(table.headers);

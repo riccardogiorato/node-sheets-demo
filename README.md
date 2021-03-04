@@ -34,3 +34,7 @@ To run this script run these commands
 yarn install
 yarn dev
 ```
+
+## Example data Source
+
+Google Sheet Document with a [List of Students](https://docs.google.com/spreadsheets/d/1-UeQshwrIbxUwYuTIspGlSdUsy6cR1gDR6texuyB7G4/edit?usp=sharing)
